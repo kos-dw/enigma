@@ -11,12 +11,12 @@ export AES_IV=＄{初期化ベクトル}
 
 2. buildします
 ```bash
-go build -o bin/enigma cmd/enigma/main.go
+go build -o .bin/enigma cmd/enigma/main.go
 ```
 3. 暗号化または復号化したいテキストを入力し、設定を調整してください。
 ```bash
-bin/enigma -e "暗号化したいテキスト"
-bin/enigma -d "復号化したいテキスト"
+.bin/enigma -e "暗号化したいテキスト"
+.bin/enigma -d "復号化したいテキスト"
 ```
 
 
